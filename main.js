@@ -1,5 +1,5 @@
 
-document.getElementById("idcaja").addEventListener("click", parametro); 
-function parametro() { document.querySelector("#idcaja").className = "verde";}
+document.getElementById("idboton").addEventListener("click", escuchoclickboton); 
+function escuchoclickboton() { document.querySelector("#idcaja").className = "verde";}
 
 
