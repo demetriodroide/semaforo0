@@ -65,7 +65,7 @@ function escuchoclickboton() {
 // input.value.length > 11 || input.value.length < 8 ||
 
 
-
+// SEMAFORO
 document.getElementById("idboton").addEventListener("click", escuchoclickboton); 
 //let input = document.getElementById("idcaja");
 
