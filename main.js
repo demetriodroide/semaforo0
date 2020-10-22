@@ -5,6 +5,7 @@ document.getElementById("idboton").addEventListener("click", escuchoclickboton);
 function escuchoclickboton() { 
     let input = document.getElementById("idcaja");
 
+        // Si el campo está vacío...
         if ( input.value === "" ){
             document.querySelector("#idcaja").className = "rojo";
         }
@@ -37,11 +38,11 @@ document.getElementById("idboton").addEventListener("click", escuchoclickboton);
 function escuchoclickboton() { 
     let input = document.getElementById("idcaja");
 
-        if ( input.value.length >= 12 || input.value.length <= 7 || input.value === "" ){
-            document.querySelector("#idcaja").className = "rojo";
-        }
-            else {
-                document.querySelector("#idcaja").className = "verde";
-            }
+    if ( input.value.length > 11 || input.value.length < 8 || input.value === "" ) {
+        document.querySelector("#idcaja").className = "rojo";
+    }
+    else {
+        document.querySelector("#idcaja").className = "verde";
+    }
 }
 
