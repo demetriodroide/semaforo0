@@ -1,0 +1,10 @@
+ocument.getElementById("idboton").addEventListener("click", escuchoclickboton); 
+
+function escuchoclickboton() { 
+    if (  ){
+        document.querySelector("#idcaja").className = "rojo";
+    }
+        else {
+            document.querySelector("#idcaja").className = "verde";
+        }
+}
